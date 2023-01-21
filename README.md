@@ -1,7 +1,19 @@
 # SystemSecurity-ReverseAnalysis
-该资源为系统安全和逆向分析实验，包括作者从零学习恶意代码分析、病毒逆向分析的工具及样本，基础性文章，希望对您有所帮助~
+该资源为系统安全和逆向分析实验，包括作者从零学习恶意代码分析、病毒逆向分析的工具及样本。主要以实例为主，安全工具推荐大家购买正版使用，基础性文章，希望对您有所帮助~
 
 > 声明：本人坚决反对利用教学方法进行犯罪的行为，一切犯罪行为必将受到严惩，绿色网络需要我们共同维护，更推荐大家了解它们背后的原理，更好地进行防护。部分恶意样本不会分享给大家，分析工具会分享。
+
+沙箱：
+- 微步沙盒：https://s.threatbook.cn/
+- 腾讯哈勃分析系统：https://habo.qq.com/
+- 魔盾：https://www.maldun.com/analysis/
+- 微点沙盒：https://sandbox.depthsec.com.cn/index.php/
+- 奇安信文件深度分析平台：https://sandbox.ti.qianxin.com/sandbox/page
+- ANYRUN：https://app.any.run/
+- HybridAnalysis (Falcon Sandbox)：https://www.hybrid-analysis.com/
+- CAPE Sandbox: https://capesandbox.com/
+- BD Sandbox Analyzer：https://www.bitdefender.com/business/enterprise-products/sandbox-analyzer.html
+- Joe Sanbox: https://www.joesandbox.com/
 
 ---
 
@@ -25,38 +37,33 @@
 - [[系统安全] 十六.PE文件逆向基础知识(PE解析、PE编辑工具和PE修改)](https://blog.csdn.net/Eastmount/article/details/113141466)
 - [[系统安全] 十七.Windows PE病毒概念、分类及感染方式详解](https://blog.csdn.net/Eastmount/article/details/113527586)
 - [[系统安全] 十八.病毒攻防机理及WinRAR恶意劫持漏洞(bat病毒、自启动、定时关机、蓝屏攻击)](https://blog.csdn.net/Eastmount/article/details/113574883)
-- [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及APT28宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
+- [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
+- [[系统安全] 二十.PE数字签名之(上)什么是数字签名及Signtool签名工具详解](https://blog.csdn.net/Eastmount/article/details/113744316)
+- [[系统安全] 二十一.PE数字签名之(中)Signcode、PEView、010Editor、Asn1View工具用法](https://blog.csdn.net/Eastmount/article/details/113774264)
+- [[系统安全] 二十二.PE数字签名之(下)微软证书漏洞CVE-2020-0601复现及Windows验证机制分析](https://blog.csdn.net/Eastmount/article/details/113829876)
+- [[系统安全] 二十三.逆向分析之OllyDbg动态调试复习及TraceMe案例分析](https://blog.csdn.net/Eastmount/article/details/113923604)
+- [[系统安全] 二十四.逆向分析之OllyDbg调试INT3断点、反调试、硬件断点与内存断点](https://blog.csdn.net/Eastmount/article/details/113964355)
+- [[系统安全] 二十五.WannaCry勒索病毒分析 (1)Python复现永恒之蓝漏洞实现勒索加密](https://blog.csdn.net/Eastmount/article/details/114194949)
+- [[系统安全] 二十六.WannaCry勒索病毒分析 (2)MS17-010漏洞利用及蠕虫解析](https://blog.csdn.net/Eastmount/article/details/114274291)
+- [[系统安全] 二十七.WannaCry勒索病毒分析 (3)蠕虫传播机制解析及IDA和OD逆向](https://blog.csdn.net/Eastmount/article/details/114457643)
+- [[系统安全] 二十八.WannaCry勒索病毒分析 (4)全网“最“详细的蠕虫传播机制解读](https://blog.csdn.net/Eastmount/article/details/114649732)
+- [[系统安全] 二十九.深信服分享之外部威胁防护和勒索病毒对抗](https://blog.csdn.net/Eastmount/article/details/115034636)
+- [[系统安全] 三十.CS逆向分析 (1)你的游戏子弹用完了吗？Cheat Engine工具入门普及](https://blog.csdn.net/Eastmount/article/details/115839038)
+- [[系统安全] 三十一.恶意代码检测(1)恶意代码攻击检测及恶意样本分析](https://blog.csdn.net/Eastmount/article/details/118080456)
+- [[系统安全] 三十二.恶意代码检测(2)常用技术详解及总结](https://blog.csdn.net/Eastmount/article/details/118812496)
+- [[系统安全] 三十三.恶意代码检测(3)基于机器学习的恶意代码检测技术](https://blog.csdn.net/Eastmount/article/details/119064665)
+- [[系统安全] 三十四.恶意代码检测(4)编写代码自动提取IAT表、字符串及时间戳](https://blog.csdn.net/Eastmount/article/details/119251662)
+- [[系统安全] 三十五.Procmon工具基本用法及文件进程、注册表查看](https://blog.csdn.net/Eastmount/article/details/120036307)
+- [[系统安全] 三十六.学术分享之基于溯源图的攻击检测安全顶会论文总结](https://blog.csdn.net/Eastmount/article/details/122210982)
+- [[系统安全] 三十七.Metasploit技术之基础用法万字详解及防御机理](https://blog.csdn.net/Eastmount/article/details/122470562)
+- [[系统安全] 三十八.Metasploit后渗透技术信息收集、权限提权和功能模块详解](https://blog.csdn.net/Eastmount/article/details/122541624)
+- [[系统安全] 三十九.Powershell恶意代码检测系列 (1)Powershell基础入门及管道和变量的用法](https://blog.csdn.net/Eastmount/article/details/124049700)
+- [[系统安全] 四十.Powershell恶意代码检测系列 (2)Powershell基础语法和注册表操作](https://blog.csdn.net/Eastmount/article/details/124394239)
+- [[系统安全] 四十一.Powershell恶意代码检测系列 (3)PowerSploit脚本渗透详解](https://blog.csdn.net/Eastmount/article/details/124517225)
+- [[系统安全] 四十二.Powershell恶意代码检测系列 (4)论文总结及抽象语法树（AST）提取](https://blog.csdn.net/Eastmount/article/details/125197855)
+- [系统安全] 四十三.Powershell恶意代码检测系列 (5)抽象语法树自动提取万字详解
 
----
 
-待分享目录：
-
-
-- [系统安全] 十七.PE数字签名之(上)什么是数字签名及Signtool签名工具详解
-- [系统安全] 十八.PE数字签名之(下)Signcode、PEView、010Editor、Asn1View工具用法
-- [系统安全] 二十二.宏病毒邮件恶意攻击+补充宏病毒攻击复现
-- [系统安全] 二十三.逆向分析之OllyDbg动态调试基础复习及TraceMe案例分析
-- [系统安全] 二十四.逆向分析之OllyDbg逆向CrackMe01-02及加壳判断
-- [系统安全] 二十五.逆向分析之OllyDbg调试INT3断点、反调试、硬件断点与内存断点
-- [系统安全] 二十六.WannaCry勒索病毒分析(1)Python利用永恒之蓝及Win7勒索加密
-- [系统安全] 二十七.WannaCry勒索病毒分析(2)MS17-010利用及病毒解析
-- [系统安全] 二十八.WannaCry勒索病毒分析(3)蠕虫传播机制分析及IDA和OD逆向
-- [系统安全] 二十九.WannaCry勒索病毒分析(4)蠕虫传播机制全网源码详细解读
-
----
-
-- [系统安全] 三十.深信服分享之外部威胁防护和勒索病毒对抗
-- [系统安全] 三十一.Procmon工具基本用法及文件进程、注册表查看
-- [系统安全] 三十二.恶意样本分析及HGZ木马控制目标服务器
-- [系统安全] 三十三.恶意代码检测(1)恶意代码攻击溯源及恶意样本分析
-- [系统安全] 三十四.恶意代码检测(2)常用技术详解及总结
-- [系统安全] 三十五.恶意代码检测(3)基于机器学习的恶意代码检测技术
-- [系统安全] 三十六.恶意代码检测(4)编写代码自动提取IAT表、字符串及时间戳溯源
-- [系统安全] 三十七.APT攻击检测溯源与常见APT组织的攻击案例
-- [系统安全] 三十八.恶意代码与APT攻击中的武器（强推Seak老师）
-- [系统安全] 三十九.远控木马详解及APT攻击中的远控
-- [系统安全] 四十.PE文件解析之通过Python获取时间戳判断软件来源地区
-- [系统安全] 四十一.APT漏洞利用之WinRAR漏洞复现（CVE-2018-20250）及恶意软件劫持
 
 
 ---
